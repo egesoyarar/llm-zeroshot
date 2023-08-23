@@ -1,0 +1,18 @@
+task: zero-shot-classification
+model: facebook/bart-large-mnli
+data_path: data/conversations.json
+sentiment:
+  - positive
+  - negative
+  - neutral
+intents:
+  representer:
+      - purchase
+      - inquire
+      - upgrade
+      - not_buy
+  customer: 
+      - purchase
+      - inquire
+      - upgrade
+      - not_buy
