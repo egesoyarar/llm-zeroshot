@@ -6,7 +6,7 @@ setup(
     version="0.1",
     packages=['llm-zeroshot'],
     python_requires=">=3.6",
-    author="soyarar",
-    author_email="egesoyarar@gmail.com",
+    author="egesoyarar",
+    author_email="",
     description="LLM Zeroshot Sentiment Analysis",
 )
